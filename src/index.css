@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #015064;
+  --thired-color: #017896;
+  --black-color: #030303;
+  --gray-color: #6b7688;
+  --lightGray-color: #017896;
+  --small-bold-text: #015064;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --bg-main: linear-gradient(90deg, rgba(141, 186, 179, 1) 22%, rgb(215, 248, 237) 55%, rgba(209, 219, 208, 1) 83%);
+  --bg-side: rgba(141, 186, 179, 1);
+  --bg-nav: rgba(133, 196, 196, 0.178);
+  --head-text: #fff;
+
+}
+
+[data-theme="dark"] {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #f1ea5b;
+  --thired-color: #c0b931;
+  --black-color: #030303;
+  --gray-color: #6b7688;
+  --lightGray-color: #b8b8b8;
+  --small-bold-text: #ffffff;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --bg-main: linear-gradient(90deg, rgba(37, 46, 41, 1) 22%, rgb(20, 29, 25) 55%, rgb(11, 17, 14) 83%);
+  --bg-side: rgba(37, 46, 41, 1);
+  --bg-nav: rgba(36, 35, 35, 0.50);
+  --head-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
