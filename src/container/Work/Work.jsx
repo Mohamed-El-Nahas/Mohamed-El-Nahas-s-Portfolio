@@ -48,7 +48,7 @@ const Work = () => {
         My Creative <span>Portflio</span> Section
       </h2>
       <div className="works-filter">
-        {["Ui/UX", "Next.js", "React.js", "All"].map(
+        {["React.js", "Next.js", "UI", "All"].map(
           (item, index) => (
             <div
               key={index}
